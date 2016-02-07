@@ -1,40 +1,99 @@
 ﻿@charset "utf-8";
 
 /*ウィンドウ背景色の設定*/
-body{
-	background-color:#fbf9cc;
+body {
+    background-color: #fbf9cc;
+    background-image: url("../images/bg-stripe01.png");
+    background-repeat: repeat-x;
 }
 
 /*リンク色の設定*/
-a{
-	color: #df4839;
+a {
+    color: #df4839;
 }
 
-a:hover{
-	color: #ff705b;
-}
+    a:hover {
+        color: #ff705b;
+    }
 
 /*ページタイトルの設定*/
-h1{
-	color: #6fbb9a;
-	text-align: center;
-	font-size: 250%;
+h1 {
+    color: #6fbb9a;
+    text-align: center;
+    font-size: 250%;
 }
 
-h1 span{
-	color: #d0e35b;
-}
+    h1 span {
+        color: #d0e35b;
+    }
 
 /*大見出しの設定*/
-h2{
-	color: #6fbb9a;
-	border: #94c8b1 1px dotted;
-	border-left: #d0e35b 10px solid;
-	padding: 5px 20px;
-	margin-bottom: 0;
+h2 {
+    color: #6fbb9a;
+    border: #94c8b1 1px dotted;
+    border-left: #d0e35b 10px solid;
+    padding: 5px 20px;
+    margin-bottom: 0;
 }
 
 /*情報データ見出しの設定*/
-dt{
-	font-weight: bold;
+dt {
+    clear:left;
+    float:left;
+    font-weight: bold;
+}
+
+#lead {
+    border-top: #6fbb9a 1px dotted;
+    border-bottom: #6fbb9a 1px dotted;
+    padding: 15px;
+    text-align: center;
+}
+
+.more {
+    text-align: right;
+    padding-right:20px;
+    background-image:url("../images/icon-arw01.png");
+    background-repeat:no-repeat;
+    background-position:right center;
+    clear:left;
+}
+
+.cat-type {
+    font-size: 80%;
+    font-weight: normal;
+}
+
+    .cat-type.male {
+        color: #2793a7;
+    }
+
+    .cat-type.female {
+        color: #df972f;
+    }
+
+.frame {
+    margin: 20px 0;
+    padding: 35px 30px 30px 30px;
+    background-image: url("../images/bg-stripe02.png");
+    background-repeat: repeat-x;
+    background-color: #fbf9cc;
+}
+
+#wrap{
+    width:798px;
+    margin:40px auto;
+    padding:40px 80px;
+    border:#f6bb9e 1px solid;
+    background-color:#fff;
+}
+
+.ph{
+    float:left;
+    margin-right:30px;
+}
+
+.data{
+    float:left;
+    width:388px;
 }

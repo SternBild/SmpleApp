@@ -1,0 +1,42 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+*{
+		margin:0;
+		padding:0;
+}
+
+ul,li{
+	list-style: none;
+}
+
+
+#wrap{
+	width: 100%;
+    min-width:470px;
+    max-width:1205px;
+	margin: 0 auto;
+}
+
+#header{
+	background-color: #f00;
+}
+
+#footer{
+	background-color: #00f;
+	clear: both;
+}
+
+.box{
+    margin-right:-20px;
+    /*overflow:hidden;*/
+}
+
+.box li{
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+/*.box li:nth-child(4n){
+    margin-right:0;
+}*/

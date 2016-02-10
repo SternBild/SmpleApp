@@ -34,6 +34,8 @@ h2 {
     border-left: #d0e35b 10px solid;
     padding: 5px 20px;
     margin-bottom: 0;
+    border-radius:4px;
+    box-shadow:#279;
 }
 
 /*情報データ見出しの設定*/

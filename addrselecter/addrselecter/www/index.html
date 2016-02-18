@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+
+    <title>住所</title>
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+
+    <script src="scripts/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind('mobileinit', function () {
+            $.support.cors = true;
+            $.mobile.allowCrossDomainPages = true;
+            $.mobile.changePage.defaults.changeHash = false;
+            $.mobile.hashListeningEnabled = false;
+            $.mobile.pushStateEnabled = false;
+        });
+    </script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="scripts/jquery.mobile.nestedlists.js"></script>
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <div data-role="page" id="wrap">
+
+        <div class="module">
+            <h2>地域から探す</h2>
+            <dl class="table">
+                <dt>都道府県</dt>
+                <dd>
+                    <select id="area_pref">
+                        <option value="">都道府県を選択してください</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl class="table">
+                <dt>市町村</dt>
+                <dd>
+                    <select id="area_city">
+                        <option value="">市町村を選択してください</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl class="table">
+                <dt>町域</dt>
+                <dd>
+                    <select id="area_town">
+                        <option value="">町域を選択してください</option>
+                    </select>
+                </dd>
+            </dl>
+        </div>
+        <!--<div role="main" class="ui-content">
+            <ul data-role="listview" data-child-pages="true">
+                <li>
+                    北海道・東北
+                    <ul id="hokkai">
+                        <li value="北海道">北海道</>
+                        <li value="青森県">青森県</li>
+                        <li value="岩手県">岩手県</li>
+                        <li value="宮城県">宮城県</li>
+                        <li value="秋田県">秋田県</li>
+                        <li value="山形県">山形県</li>
+                        <li value="福島県">福島県</li>
+                    </ul>
+                </li>
+                <li>
+                    入門書
+                    <ul>
+                        <li>10日でおぼえるjQuery入門教室</li>
+                        <li>独習ASP.NET 第4版 </li>
+                        <li>10日でおぼえるPHP入門教室 第4版</li>
+                    </ul>
+                </li>
+                <li>
+                    ドリル
+                    <ul>
+                        <li>書き込み式SQLのドリル</li>
+                        <li>書き込み式SQLのドリル 発展</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="foo">
+
+        </div>-->
+    </div>
+</body>
+</html>
